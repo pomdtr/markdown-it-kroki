@@ -1,2 +1,3 @@
 markdown-it-mermaid-plugin-*.tgz
 .history
+node_modules

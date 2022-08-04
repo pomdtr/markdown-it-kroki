@@ -1,9 +1,9 @@
-const MarkdownIt = require('markdown-it');
+const MarkdownIt = require("markdown-it");
 
-const renderer = new MarkdownIt()
-	.use(require('../index'));
+const renderer = new MarkdownIt().use(require("../index"));
 
-console.log(renderer.render(`
+console.log(
+  renderer.render(`
 \`\`\`mermaid
 graph TD;
     A-->B;
@@ -11,4 +11,5 @@ graph TD;
     B-->D;
 		C-->D;
 \`\`\`
-`));
+`)
+);

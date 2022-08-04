@@ -1,7 +1,7 @@
 {
-  "name": "markdown-it-mermaid-plugin",
+  "name": "markdown-it-kroki",
   "version": "0.1.0",
-  "description": "A lightweight markdown-it plugin to support mermaid diagram",
+  "description": "A lightweight markdown-it plugin to support kroki diagram",
   "main": "index.js",
   "scripts": {
     "test": "node test/test.js"
@@ -10,16 +10,19 @@
     "markdown",
     "markdown-it",
     "plugin",
-    "mermaid",
+    "kroki",
     "diagram"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DCsunset/markdown-it-mermaid-plugin"
+    "url": "git+https://github.com/pomdtr/markdown-it-kroki"
   },
-  "author": "DCsunset",
+  "author": "pomdtr",
   "license": "MIT",
   "devDependencies": {
     "markdown-it": "^12.3.2"
+  },
+  "dependencies": {
+    "pako": "^2.0.4"
   }
 }
